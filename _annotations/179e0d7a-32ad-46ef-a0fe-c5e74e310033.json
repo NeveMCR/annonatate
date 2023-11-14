@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001/canvas/10"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Golden flower crown.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NeveMCR",
+                "name": "NeveMCR"
+            },
+            "created": "2023-11-14T11:42:36.412Z",
+            "modified": "2023-11-14T11:42:43.788Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001/canvas/10",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2357.999267578125,1437.3675537109375,430.18798828125,312.029296875"
+        }
+    },
+    "id": "179e0d7a-32ad-46ef-a0fe-c5e74e310033.json",
+    "motivation": "commenting"
+}
