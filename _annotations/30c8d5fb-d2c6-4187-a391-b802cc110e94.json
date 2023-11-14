@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Flowers in the hair",
-            "purpose": "commenting",
+            "created": "2023-11-14T11:38:00.563Z",
             "creator": {
                 "id": "NeveMCR",
                 "name": "NeveMCR"
             },
-            "created": "2023-11-14T11:38:00.563Z",
-            "modified": "2023-11-14T11:38:06.450Z"
+            "modified": "2023-11-14T11:42:22.520Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Flowers in the branches of hair."
         }
     ],
+    "id": "30c8d5fb-d2c6-4187-a391-b802cc110e94.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3342.000732421875,499.6973876953125,1252.619384765625,1029.71923828125"
+        },
         "source": {
             "partOf": {
                 "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001/canvas/10",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3342.000732421875,499.6973876953125,1252.619384765625,1029.71923828125"
         }
     },
-    "id": "30c8d5fb-d2c6-4187-a391-b802cc110e94.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
