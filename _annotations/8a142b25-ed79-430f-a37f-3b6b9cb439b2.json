@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001/canvas/10"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "La lune.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NeveMCR",
+                "name": "NeveMCR"
+            },
+            "created": "2023-11-14T11:41:41.442Z",
+            "modified": "2023-11-14T11:41:43.514Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001/canvas/10",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3093.7998046875,1899.472900390625,549.44140625,508.81201171875"
+        }
+    },
+    "id": "8a142b25-ed79-430f-a37f-3b6b9cb439b2.json",
+    "motivation": "commenting"
+}
