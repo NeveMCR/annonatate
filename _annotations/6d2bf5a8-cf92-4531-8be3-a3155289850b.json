@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001/canvas/10"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "soleil",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NeveMCR",
+                "name": "NeveMCR"
+            },
+            "created": "2023-11-14T11:40:06.635Z",
+            "modified": "2023-11-14T11:40:07.654Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GERMAN-00001/canvas/10",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1442.560791015625,1759.1090087890625,696.26904296875,729.8309326171875"
+        }
+    },
+    "id": "6d2bf5a8-cf92-4531-8be3-a3155289850b.json",
+    "motivation": "commenting"
+}
